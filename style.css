@@ -1,0 +1,24 @@
+.heading{
+    font-size: 25;
+}
+
+.snap:hover{
+    background-color: darkmagenta;
+    border-color: magenta;
+}
+
+.heading:hover{
+    background-color: darkgreen;
+    border-color:green;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {box-shadow: 1px 1px 38px red;}
+    to {box-shadow: 1px 1px 38px yellow;}
+}
